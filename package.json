@@ -1,0 +1,29 @@
+{
+  "name": "node-diskmanager",
+  "version": "1.0.0",
+  "description": "Package designed to allow you get get SMART disk information as well as create Software RAID and mount disks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jafesu/node-diskmanager.git"
+  },
+  "keywords": [
+    "node",
+    "disks",
+    "diskmanagement",
+    "management",
+    "SMART",
+    "smartctl",
+    "mdadm",
+    "raid"
+  ],
+  "author": "Ezekiel J. Hammond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jafesu/node-diskmanager/issues"
+  },
+  "homepage": "https://github.com/Jafesu/node-diskmanager#readme"
+}
