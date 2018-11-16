@@ -11,7 +11,7 @@
     "url": "git+ssh://git@github.com/Jafesu/node-diskmanager.git"
   },
   "dependencies": {
-    "shelljs":"^0.8.3",
+    "shelljs": "^0.8.3",
     "debug": "^4.1.0",
     "chalk": "^2.4.1",
     "path": "^0.12.7"
