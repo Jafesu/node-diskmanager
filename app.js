@@ -1,10 +1,15 @@
 const shell = require('shelljs');
-const debug = require('debug')('DiskManager');
+const debug = require('debug')('app:DiskManager');
 const chalk = require('chalk');
 const path = require('path');
+const smartctl = require('node-smartctl');
 
-shell.exec('apt install smartmontools -y', function(code, stdout, stderr) {
-    console.log('Exit code:', code);
-    console.log('Program output:', stdout);
-    console.log('Program stderr:', stderr);
-  });
+const disks = smartctl();
+
+getSmart = () => {
+  for(i = 0; i < disks.length; i++){
+    console.log(disks[i].Disk);
+    console.log(disks[i].Status);
+  }
+}
+getSmart();
